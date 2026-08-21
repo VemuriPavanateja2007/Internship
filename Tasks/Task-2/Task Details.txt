@@ -1,0 +1,27 @@
+Develop a Sales Analytics Dashboard using Python Flask and SQLite.
+
+The application should use existing sales data stored in an SQLite database and provide useful sales insights.
+
+Requirements
+
+The application should allow the user to:
+
+Display the total sales amount.
+Display the total quantity of products sold.
+Display the total number of sales transactions.
+Identify and display the best-selling product based on quantity sold.
+Display sales summary by product.
+Display sales summary by category.
+Display all sales information in a Bootstrap table.
+Provide a category filter to view sales for a particular category.
+Display a sales chart using Chart.js to visualize sales performance.
+Create a simple dashboard using Bootstrap cards to display the key sales statistics.
+
+Technologies to Use
+Python
+Flask
+SQLite
+HTML
+Bootstrap 5
+Jinja2
+Chart.js
