@@ -1,0 +1,6 @@
+{
+  "name": "Intelligent Sales Forecasting Platform",
+  "description": "AI-Powered Predictive Analytics platform for intelligent revenue projection, deal scoring, scenario simulation, and growth intelligence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
