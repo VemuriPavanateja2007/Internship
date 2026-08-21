@@ -1,0 +1,23 @@
+
+Elakkiya Mentor <springboardmentor1307@gmail.com>
+Wed, Aug 19, 10:20 PM (2 days ago)
+to Elakkiya, bcc: me
+
+
+Develop a simple Sales Management System using Python Flask and SQLite.
+
+The application should allow the user to:
+
+Add a sales record.
+Store the sales record in SQLite.
+Calculate the total amount using:
+Total = Quantity × Price
+Display all sales records in a Bootstrap table.
+
+Technologies to use
+Python
+Flask
+SQLite
+HTML
+Bootstrap
+Jinja2
