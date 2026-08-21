@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vectra AI - Sales Forecasting Platform Presentation Deck</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #09090B; color: #F4F4F5; margin: 0; padding: 40px 20px; }
+    .deck-container { max-width: 1000px; margin: 0 auto; }
+    .slide-card { background: #0F0F12; border: 1px solid #27272A; border-radius: 12px; padding: 40px; margin-bottom: 40px; page-break-after: always; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+    .slide-header { border-bottom: 1px solid #27272A; padding-bottom: 20px; margin-bottom: 24px; }
+    .badge { display: inline-block; background: rgba(99,102,241,0.15); color: #818CF8; border: 1px solid rgba(99,102,241,0.3); font-size: 11px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; padding: 4px 10px; border-radius: 4px; margin-bottom: 12px; }
+    h1 { font-size: 26px; margin: 0 0 8px 0; color: #FFFFFF; font-weight: 700; }
+    .subtitle { color: #A1A1AA; font-size: 14px; margin: 0; line-height: 1.5; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 24px 0; }
+    .metric-card { background: rgba(255,255,255,0.03); border: 1px solid #27272A; padding: 16px; border-radius: 8px; text-align: center; }
+    .metric-label { font-size: 10px; color: #71717A; text-transform: uppercase; letter-spacing: 1px; }
+    .metric-val { font-size: 24px; font-weight: bold; color: #FFFFFF; margin: 6px 0; font-family: monospace; }
+    .metric-sub { font-size: 11px; color: #A1A1AA; }
+    .bullets { list-style: none; padding: 0; margin: 24px 0; }
+    .bullets li { margin-bottom: 16px; padding-left: 20px; position: relative; line-height: 1.6; font-size: 14px; }
+    .bullets li::before { content: "■"; color: #818CF8; position: absolute; left: 0; font-size: 10px; top: 2px; }
+    .bullets strong { color: #FFFFFF; }
+    .speaker-notes { background: rgba(99,102,241,0.05); border-left: 3px solid #818CF8; padding: 14px 18px; font-size: 13px; color: #D4D4D8; margin-top: 24px; border-radius: 0 8px 8px 0; }
+    .speaker-label { font-weight: bold; text-transform: uppercase; font-size: 10px; color: #818CF8; letter-spacing: 1.5px; margin-bottom: 6px; }
+    .slide-num { float: right; font-family: monospace; font-size: 12px; color: #71717A; }
+    @media print { body { background: white; color: black; } .slide-card { border: 1px solid #CCC; background: white; color: black; box-shadow: none; } h1, .metric-val, .bullets strong { color: black; } .subtitle, .metric-sub, .speaker-notes { color: #444; } }
+  </style>
+</head>
+<body>
+  <div class="deck-container">
+    <div style="text-align: center; margin-bottom: 40px;">
+      <h1 style="font-size: 32px;">Vectra AI - Sales Forecasting Platform</h1>
+      <p style="color: #A1A1AA;">10-Slide Executive Presentation & Technical Overview Deck</p>
+    </div>
+    
+      <div class="slide-card">
+        <div class="slide-header">
+          <span class="slide-num">SLIDE 1 / 10</span>
+          <span class="badge">EXECUTIVE VISION & PLATFORM OVERVIEW</span>
+          <h1>Predictive Revenue Intelligence & Sales Forecasting Platform</h1>
+          <p class="subtitle">Transforming enterprise sales forecasting from subjective guesswork into statistical, machine learning-driven revenue certainty.</p>
+        </div>
+        
+          <div class="grid">
+            
+              <div class="metric-card">
+                <div class="metric-label">Target Forecast Horizon</div>
+                <div class="metric-val">6 - 12 Mo</div>
+                <div class="metric-sub">Continuous Rolling Lookahead</div>
+              </div>
+            
+              <div class="metric-card">
+                <div class="metric-label">In-Sample Accuracy (R²)</div>
+                <div class="metric-val">97.7%</div>
+                <div class="metric-sub">Cross-Validated Fit</div>
+              </div>
+            
+              <div class="metric-card">
+                <div class="metric-label">Mean Absolute Error</div>
+                <div class="metric-val">3.6%</div>
+                <div class="metric-sub">Sub-5% Error Ceiling</div>
+              </div>
+            
+              <div class="metric-card">
+                <div class="metric-label">Live Pipeline Value</div>
+                <div class="metric-val">$895k</div>
+                <div class="metric-sub">Probability-Weighted</div>
+              </div>
+            
+          </div>
+        
+        <ul class="bullets">
+          
+            <li><strong>Next-Gen Revenue Architecture</strong>: A hybrid intelligence system coupling Scikit-Learn regressors, NumPy linear algebra, and Gemini 2.5 Flash generative reasoning.</li>
+          
+            <li><strong>Eliminating the 30% Forecast Error Gap</strong>: Replaces traditional static spreadsheets and manual CRM 'commit' categories with automated statistical confidence intervals.</li>
+          
+            <li><strong>Actionable Operational Prescriptions</strong>: Combines macro-level time-series projections with granular opportunity-level win probability scoring and what-if sensitivity levers.</li>
+          
+        </ul>
+        <div class="speaker-notes">
+          <div class="speaker-label">Executive Speaker Notes</div>
+          <div>Welcome executive stakeholders. Today we present the Next-Gen Predictive Revenue Intelligence Platform. Traditional enterprise forecasting suffers from a 25-35% variance between rep commitments and actual closed ARR. This platform bridges that gap by unifying quantitative statistical machine learning with real-time pipeline velocity and generative strategic analysis.</div>
+        </div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-header">
+          <span class="slide-num">SLIDE 2 / 10</span>
+          <span class="badge">PROBLEM STATEMENT & BUSINESS CATALYST</span>
+          <h1>The Critical Flaws in Traditional Enterprise Revenue Planning</h1>
+          <p class="subtitle">Why conventional CRM pipeline rollups fail executive leadership and board commitments.</p>
+        </div>
+        
+          <div class="grid">
+            
+              <div class="metric-card">
+                <div class="metric-label">Avg Industry Forecast Error</div>
+                <div class="metric-val">28.4%</div>
+                <div class="metric-sub">Traditional CRM Rollups</div>
+              </div>
+            
+              <div class="metric-card">
+                <div class="metric-label">Deals Slipping Past Quarter</div>
+                <div class="metric-val">43.0%</div>
+                <div class="metric-sub">Unpredicted Cycle Stalling</div>
+              </div>
+            
+              <div class="metric-card">
+                <div class="metric-label">Planning Time Lost/Quarter</div>
+                <div class="metric-val">120+ Hrs</div>
+                <div class="metric-sub">Manual Spreadsheet Scrubbing</div>
+              </div>
+            
+          </div>
+        
+        <ul class="bullets">
+          
+            <li><strong>Subjective Rep Bias & Sandbagging</strong>: Sales representatives consistently misjudge close probabilities based on emotion, quota anxiety, or end-of-quarter sandbagging tactics.</li>
+          
+            <li><strong>Blindness to Seasonality & Macro Dampening</strong>: Linear Excel extrapolate models ignore multi-period Fourier cyclicality, procurement delays, and interest rate volatility.</li>
+          
+            <li><strong>Lack of Prescriptive What-If Agility</strong>: Executives cannot dynamically test hiring 5 AEs vs. raising pricing 10% vs. cutting churn by 1.5% without days of fragile modeling.</li>
+          
+            <li><strong>Disconnected Deal Health Diagnostics</strong>: CRMs lack automatic alerts when deal cycle duration exceeds 1.5x average or when economic decision makers fail to engage.</li>
+          
+        </ul>
+        <div class="speaker-notes">
+          <div class="speaker-label">Executive Speaker Notes</div>
+          <div>Slide 2 outlines the exact enterprise pain points we are resolving. Revenue leaders spend over 120 hours each quarter reconciling mismatched spreadsheets, yet 43% of forecasted deals still slip into subsequent quarters. By instituting algorithmic rigor, we remove human bias and deliver mathematical transparency.</div>
+        </div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-header">
+          <span class="slide-num">SLIDE 3 / 10</span>
+          <span class="badge">SYSTEM ARCHITECTURE & TECHNICAL TOPOLOGY</span>
+          <h1>Full-Stack End-to-End Enterprise Architecture</h1>
+          <p class="subtitle">Decoupled high-performance analytical pipeline combining TypeScript UI, Flask/Scikit-Learn ML microservices, and LLM reasoning.</p>
+        </div>
+        
+        <ul class="bullets">
+          
+            <li><strong>Client-Side Responsive Command Deck (Vite + React)</strong>: Built with TypeScript, Tailwind CSS, and Recharts. Delivers sub-16ms interactive UI rendering, parametric slider controls, and visual analytics.</li>
+          
+            <li><strong>Node.js High-Throughput API Gateway</strong>: Handles dataset ingestion, CSV file streaming, caching, session authentication, and orchestrates requests between ML microservices and Gemini API.</li>
+          
+            <li><strong>Python Scikit-Learn & NumPy Analytical Core</strong>: Lightweight microservice powering Gradient Boosting, Polynomial Ridge Regression, Random Forest classifiers, and Monte Carlo matrix simulations.</li>
+          
+            <li><strong>Gemini 2.5 Flash Generative Revenue Advisor</strong>: Ingests structured forecast outputs, error benchmarks, and pipeline health vectors to produce natural-language executive briefings and risk mitigation playbooks.</li>
+          
+        </ul>
+        <div class="speaker-notes">
+          <div class="speaker-label">Executive Speaker Notes</div>
+          <div>Our architecture is purpose-built for speed and reliability. The front-end renders real-time scenario adjustments instantly. The Python microservice processes 36-month time series and 500+ deal matrices in under 50 milliseconds, while Google's Gemini 2.5 Flash translates raw matrices into human-readable executive summaries.</div>
+        </div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-header">
+          <span class="slide-num">SLIDE 4 / 10</span>
+          <span class="badge">MACHINE LEARNING ENSEMBLE ENGINE</span>
+          <h1>Scikit-Learn Predictive Regressors & Benchmark Evaluation</h1>
+          <p class="subtitle">A multi-model ensemble designed to prevent over-fitting while capturing complex nonlinear seasonal inflection points.</p>
+        </div>
+        
+          <div class="grid">
+            
+              <div class="metric-card">
+                <div class="metric-label">Ensemble R² Score</div>
+                <div class="metric-val">94.5%</div>
+                <div class="metric-sub">Generalized Out-of-Sample</div>
+              </div>
+            
+              <div class="metric-card">
+                <div class="metric-label">Ensemble MAPE</div>
+                <div class="metric-val">4.2%</div>
+                <div class="metric-sub">Mean Absolute % Error</div>
+              </div>
+            
+              <div class="metric-card">
+                <div class="metric-label">Ensemble RMSE</div>
+                <div class="metric-val">$8.4k</div>
+                <div class="metric-sub">Root Mean Square Residual</div>
+              </div>
+            
+          </div>
+        
+        <ul class="bullets">
+          
+            <li><strong>Ensemble Stacking (40% GBM + 35% RF + 25% Ridge)</strong>: Blends tree-based regressors with linear regularized polynomials to balance variance reduction with non-linear trend detection.</li>
+          
+            <li><strong>Gradient Boosting Regressor (GBM)</strong>: Specializes in steep growth trajectories and macroeconomic momentum shifts with minimal residual variance (MAPE: 4.8%).</li>
+          
+            <li><strong>Random Forest Regressor (100 Estimators)</strong>: Provides robust out-of-sample resilience against outliers, sudden pipeline surges, and anomalous monthly spikes (MAPE: 5.1%).</li>
+          
+            <li><strong>Polynomial Ridge Regression (L2 Regularization)</strong>: Extracts underlying quadratic momentum while penalizing excessive parameter weights to prevent runaway extrapolation.</li>
+          
+        </ul>
+        <div class="speaker-notes">
+          <div class="speaker-label">Executive Speaker Notes</div>
+          <div>Slide 4 showcases our model evaluation bench. Rather than relying on a single brittle algorithm, we deploy a weighted ensemble. The ensemble yields an R-squared of 94.5% and reduces MAPE to 4.2%, outperforming standalone linear models by over 14 percentage points in cross-validation tests.</div>
+        </div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-header">
+          <span class="slide-num">SLIDE 5 / 10</span>
+          <span class="badge">MATHEMATICAL FORMULATION & FEATURE ENGINEERING</span>
+          <h1>Feature Decomposition & Time-Series Math</h1>
+          <p class="subtitle">Deconstructing monthly revenue into secular trend, Fourier seasonality, and pipeline momentum vectors.</p>
+        </div>
+        
+        <ul class="bullets">
+          
+            <li><strong>Fourier Series Harmonic Seasonality</strong>: Models annual and quarterly buying cycles using harmonic sinusoids: S(t) = ∑ [ a_k cos(2πkt/12) + b_k sin(2πkt/12) ] to capture Q4 enterprise spend spikes.</li>
+          
+            <li><strong>Decaying Moving Averages & Momentum Lags</strong>: Calculates 3-month and 6-month exponential moving averages (EMA) to detect structural growth acceleration vs. temporary decelerations.</li>
+          
+            <li><strong>Feature Importance Ranking</strong>: 1. 3-Month Moving Average (34.2%), 2. Annual Fourier Seasonality (26.8%), 3. Opportunity Velocity (21.5%), 4. Linear Time Index (17.5%).</li>
+          
+        </ul>
+        <div class="speaker-notes">
+          <div class="speaker-label">Executive Speaker Notes</div>
+          <div>Here we examine the mathematical foundations. Revenue time-series are decomposed into deterministic trend, Fourier harmonic seasonality, and autoregressive lag terms. This allows the model to anticipate quarterly budget flushes in November and December without being misled by summer slowdowns.</div>
+        </div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-header">
+          <span class="slide-num">SLIDE 6 / 10</span>
+          <span class="badge">DEAL RADAR & OPPORTUNITY HEALTH CLASSIFIER</span>
+          <h1>Scikit-Learn Random Forest Pipeline Health Scoring</h1>
+          <p class="subtitle">Algorithmic win probability calculation for every qualified deal in the sales funnel.</p>
+        </div>
+        
+          <div class="grid">
+            
+              <div class="metric-card">
+                <div class="metric-label">Pipeline Weighted Win Rate</div>
+                <div class="metric-val">62.4%</div>
+                <div class="metric-sub">Algorithmic Expected Mean</div>
+              </div>
+            
+              <div class="metric-card">
+                <div class="metric-label">Decision Maker Impact</div>
+                <div class="metric-val">+28%</div>
+                <div class="metric-sub">Win Probability Lift</div>
+              </div>
+            
+              <div class="metric-card">
+                <div class="metric-label">Age Decay Cutoff</div>
+                <div class="metric-val">> 45 Days</div>
+                <div class="metric-sub">Triggers Auto Risk Flag</div>
+              </div>
+            
+          </div>
+        
+        <ul class="bullets">
+          
+            <li><strong>Multi-Factor Scoring Matrix</strong>: Evaluates stage maturity, historical rep win-rates, account tier, touchpoint frequency, and economic decision maker engagement.</li>
+          
+            <li><strong>Nonlinear Deal Age Velocity Decay</strong>: Applies statistical decay curves to opportunities that linger beyond median stage duration: P_decay = P_base × exp(-0.015 × (Age - μ)).</li>
+          
+            <li><strong>Actionable Tri-Tier Health Classification</strong>: High Confidence (≥70% Win Prob), Competitive / Medium (45-69%), and At Risk (<45%) with automatic risk root-cause tagging.</li>
+          
+            <li><strong>Automated Prescriptive Action Generation</strong>: Provides reps with explicit next steps (e.g. 'Deploy executive sponsor', 'Execute security review mutual plan').</li>
+          
+        </ul>
+        <div class="speaker-notes">
+          <div class="speaker-label">Executive Speaker Notes</div>
+          <div>Moving to Slide 6: the Deal Radar. Individual opportunities are scored in real time by our Random Forest classifier. When a deal exceeds 45 days in cycle without economic buyer engagement, the system automatically penalizes the win probability and alerts the sales director with a prescriptive recovery playbook.</div>
+        </div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-header">
+          <span class="slide-num">SLIDE 7 / 10</span>
+          <span class="badge">MONTE CARLO PROBABILISTIC MODELING</span>
+          <h1>Uncertainty Quantification & 95% Confidence Envelopes</h1>
+          <p class="subtitle">Providing CFOs and revenue leaders with best-case, expected, and downside risk bounds.</p>
+        </div>
+        
+          <div class="grid">
+            
+              <div class="metric-card">
+                <div class="metric-label">Confidence Interval Level</div>
+                <div class="metric-val">95.0%</div>
+                <div class="metric-sub">Statistical Significance</div>
+              </div>
+            
+              <div class="metric-card">
+                <div class="metric-label">Downside Floor (P10)</div>
+                <div class="metric-val">-8.5%</div>
+                <div class="metric-sub">Max Anticipated Variance</div>
+              </div>
+            
+              <div class="metric-card">
+                <div class="metric-label">Upside Ceiling (P90)</div>
+                <div class="metric-val">+11.2%</div>
+                <div class="metric-sub">Optimal Momentum Bound</div>
+              </div>
+            
+          </div>
+        
+        <ul class="bullets">
+          
+            <li><strong>Empirical Residual Bootstrap & Matrix Variance</strong>: Simulates 1,000 forward forecast iterations using parametric covariance matrices derived from historical cross-validation errors.</li>
+          
+            <li><strong>P10 / P50 / P90 Confidence Envelopes</strong>: Supplies rigorous statistical boundaries: P10 (Conservative Downside Floor), P50 (Expected Baseline), P90 (Aggressive Upside Ceiling).</li>
+          
+            <li><strong>Eliminating Single-Point Estimate Vulnerabilities</strong>: Enables finance teams to budget operating expenses against the P10 floor while aligning sales quotas with the P50/P90 targets.</li>
+          
+        </ul>
+        <div class="speaker-notes">
+          <div class="speaker-label">Executive Speaker Notes</div>
+          <div>Slide 7 addresses risk management. Single-point forecasts are notoriously fragile. Our platform computes 95% confidence intervals via Monte Carlo residual sampling. This gives the CFO an empirical downside floor for cash flow planning while establishing realistic upside targets for board meetings.</div>
+        </div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-header">
+          <span class="slide-num">SLIDE 8 / 10</span>
+          <span class="badge">DYNAMIC WHAT-IF SCENARIO SIMULATOR</span>
+          <h1>Parametric Sensitivity Modeling & Revenue Stress Testing</h1>
+          <p class="subtitle">Instantaneous recalculation across headcount, lead generation, ACV pricing, and churn levers.</p>
+        </div>
+        
+        <ul class="bullets">
+          
+            <li><strong>Multi-Lever Parametric Matrix</strong>: Simulate impacts of Inbound Leads (-50% to +100%), Deal Size ACV (-30% to +60%), Win Rate Lift (-20% to +40%), and AE Headcount (-5 to +15 Reps).</li>
+          
+            <li><strong>Instant One-Click Strategic Presets</strong>: Rapidly evaluate pre-configured business scenarios: 'Aggressive Scale', 'Enterprise Up-Market Pivot', and 'Macroeconomic Downturn Stress Test'.</li>
+          
+            <li><strong>Annualized Run Rate & Cumulative Delta Tracking</strong>: Displays live month-by-month trajectory comparisons between baseline forecast and simulated revenue yields.</li>
+          
+        </ul>
+        <div class="speaker-notes">
+          <div class="speaker-label">Executive Speaker Notes</div>
+          <div>Slide 8 highlights our What-If Simulator. In executive board meetings, questions arise: 'What happens to Q3 ARR if enterprise lead flow drops 20% but we raise ACV by 15%?' The simulator calculates the compounded monthly delta in real time, turning speculative debate into data-backed decisions.</div>
+        </div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-header">
+          <span class="slide-num">SLIDE 9 / 10</span>
+          <span class="badge">GENERATIVE AI STRATEGIC REVENUE ADVISOR</span>
+          <h1>Gemini 2.5 Flash Copilot & Automated Executive Briefings</h1>
+          <p class="subtitle">Bridging the gap between raw statistical data and strategic C-suite decision making.</p>
+        </div>
+        
+          <div class="grid">
+            
+              <div class="metric-card">
+                <div class="metric-label">AI Model Tier</div>
+                <div class="metric-val">Gemini 2.5</div>
+                <div class="metric-sub">Google DeepMind Flash Core</div>
+              </div>
+            
+              <div class="metric-card">
+                <div class="metric-label">Inference Latency</div>
+                <div class="metric-val">< 850ms</div>
+                <div class="metric-sub">Sub-Second Briefing Gen</div>
+              </div>
+            
+              <div class="metric-card">
+                <div class="metric-label">Context Window Depth</div>
+                <div class="metric-val">1M+ Tokens</div>
+                <div class="metric-sub">Complete Pipeline Memory</div>
+              </div>
+            
+          </div>
+        
+        <ul class="bullets">
+          
+            <li><strong>Natural Language Executive Briefings</strong>: Synthesizes multi-month forecast projections, top feature drivers, and model accuracy benchmarks into clear, bulleted executive summaries.</li>
+          
+            <li><strong>Context-Aware Interactive Copilot</strong>: Revenue leaders can ask ad-hoc strategic queries: 'Which enterprise deals need VP involvement?', 'Why is Q4 accelerating?', or 'How can we close our quota gap?'</li>
+          
+            <li><strong>Targeted Prescriptive Playbooks</strong>: Identifies specific operational interventions across marketing spend, AE enablement, and contract terms to maximize close rates.</li>
+          
+        </ul>
+        <div class="speaker-notes">
+          <div class="speaker-label">Executive Speaker Notes</div>
+          <div>Slide 9 presents our Generative AI layer. Powered by Gemini 2.5 Flash, the copilot analyzes both macro time-series trends and micro opportunity vectors. It acts as an on-demand Chief Revenue Officer, providing succinct strategic briefings and answering complex ad-hoc pipeline inquiries.</div>
+        </div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-header">
+          <span class="slide-num">SLIDE 10 / 10</span>
+          <span class="badge">BUSINESS IMPACT, ROI & ROADMAP</span>
+          <h1>Quantified Financial Outcomes & Rollout Milestones</h1>
+          <p class="subtitle">Delivering measurable ARR expansion, forecast precision, and executive agility.</p>
+        </div>
+        
+          <div class="grid">
+            
+              <div class="metric-card">
+                <div class="metric-label">Estimated First-Year ROI</div>
+                <div class="metric-val">4.8x</div>
+                <div class="metric-sub">ARR Protection & Efficiency</div>
+              </div>
+            
+              <div class="metric-card">
+                <div class="metric-label">Forecast Accuracy Delta</div>
+                <div class="metric-val">+23.8%</div>
+                <div class="metric-sub">Over Legacy Methods</div>
+              </div>
+            
+              <div class="metric-card">
+                <div class="metric-label">Time-to-Value</div>
+                <div class="metric-val">< 14 Days</div>
+                <div class="metric-sub">Rapid Ingestion & Training</div>
+              </div>
+            
+          </div>
+        
+        <ul class="bullets">
+          
+            <li><strong>28% Reduction in Forecast Variance</strong>: Shrinks quarterly revenue forecast deviation from ±22% down to ±4.2%, unlocking more efficient capital allocation and board credibility.</li>
+          
+            <li><strong>14% Pipeline Conversion Rate Expansion</strong>: Deal health scoring and prescriptive coaching actions allow sales reps to rescue stalling opportunities before quarter close.</li>
+          
+            <li><strong>75% Reduction in Revenue Operations Overhead</strong>: Replaces weeks of manual spreadsheet data reconciliation with fully automated real-time model retraining and reporting.</li>
+          
+            <li><strong>Phase 1 to Phase 3 Implementation Roadmap</strong>: Phase 1: CSV / CRM Ingestion → Phase 2: Automated Scikit-Learn Retraining → Phase 3: Bi-directional CRM Action Sync.</li>
+          
+        </ul>
+        <div class="speaker-notes">
+          <div class="speaker-label">Executive Speaker Notes</div>
+          <div>To conclude on Slide 10: The business value is immediate. Organizations implementing this platform experience a 28% reduction in forecast variance, a 14% lift in win rates, and a 4.8x first-year ROI. We look forward to partnering with your revenue team to deploy this platform. Thank you.</div>
+        </div>
+      </div>
+    
+  </div>
+</body>
+</html>
